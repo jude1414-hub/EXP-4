@@ -74,10 +74,11 @@ contract DeFiLending {
 
 ```
 # Expected Output:
-![Screenshot 2025-04-24 121750](https://github.com/user-attachments/assets/a58d84e1-c81e-440b-92ed-97a403e13069)
-![Screenshot 2025-04-24 121818](https://github.com/user-attachments/assets/84edef60-62ee-478f-a5c5-e4bf9972afc9)
-![Screenshot 2025-04-24 121831](https://github.com/user-attachments/assets/6049e87b-115e-487f-b4f2-aa79383ed9df)
+![Screenshot 2025-04-28 102136](https://github.com/user-attachments/assets/c455b406-36ab-42b3-b397-caf9d792741d)
 
+![Screenshot 2025-04-28 104658](https://github.com/user-attachments/assets/9f152e54-ef06-4e8c-a4a4-d492e1813985)
+![Screenshot 2025-04-28 104712](https://github.com/user-attachments/assets/30ada8ab-05da-49b6-b68e-50f1573c5444)
+![Screenshot 2025-04-28 104723](https://github.com/user-attachments/assets/1345c46a-10bd-468d-b727-fe11f111942e)
 
 
 # High-Level Overview:
@@ -90,3 +91,4 @@ Introduces risk management: overcollateralization and liquidation.
 Directly related to DeFi protocols like Aave and Compound.
 
 # RESULT : 
+
