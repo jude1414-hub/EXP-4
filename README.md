@@ -60,6 +60,12 @@ contract DeFiLending {
         emit Borrowed(msg.sender, amount, msg.value);
     }
 
+    function reduceCollateral(address user, uint256 amount) public {
+    require(msg.sender == owner, "Only owner can reduce");
+    require(collateral[user] >= amount, "Not enough collateral to reduce");
+    collateral[user] -= amount;
+    }
+
     function liquidate(address borrower) public {
         require(collateral[borrower] < (borrowed[borrower] * liquidationThreshold) / 100, "Not eligible for liquidation");
         uint256 debt = borrowed[borrower];
